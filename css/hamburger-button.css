@@ -1,0 +1,21 @@
+
+
+.hamburger-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+.hamburger-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #222222;
+    margin: 3px 0;
+   
+}
+.hamburger-icon {
+    position: absolute;
+    top: 36px;
+    right: 120px;
+}

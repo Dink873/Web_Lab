@@ -1,0 +1,132 @@
+@media (max-width: 320px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 0;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+    .nav__links_active {
+        margin: 20px;
+        margin-top: 60px;
+    }
+    .header__items_nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 100px;
+    }
+    .hamburger-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav__links {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .header__items_title {
+        margin-left: 10px;
+    }
+    .header__items_button button {
+        width: 150px;
+        display: none;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+    .intro__items {
+        flex-direction: column;
+    }
+
+    .spark-img {
+        position: absolute;
+        right: 20px;
+        top: 182rem;
+        z-index: -1;
+    }
+    .spark_block {
+        width: 300px;
+        padding: 10px;
+    }
+    .spark {
+        margin-top: 30px;
+        width: 319px;
+    }
+    .spark__logo {
+        width: 319px;
+        margin-left: 10px;
+    }
+    .spark__logo-text {
+        width: 300px;
+        margin-left: 10px;
+    }
+    
+    .intro__items_text {
+        width: 300px;
+        margin: 0px;
+    }
+    .text__paragraph {
+        width: 300px;
+    }
+    .info__column_block {
+        width: 300px;
+        padding: 10px;
+        gap: 5px;
+    }
+    .reviews__text_title {
+        margin-left: 10px;
+        width: 300px;
+    }
+    .reviews__text_paragraph {
+        width: 300px;
+        padding: 10px;
+    }
+    .reviews__text_paragraph {
+        width: 300px;
+    }
+    .reviews__text_content {
+        padding-right: 20px;
+    }
+    .group-image {
+        margin-left: 140px;
+    }
+    .content__flex {
+        width: 300px;
+        padding: 10px;
+    }
+    .form__content_text {
+        width: 150px;
+    }
+    .form__content_button {
+        width: 120px;
+    }
+    .text__form {
+        width: 300px;
+    }
+    .form__content_text h1{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1920px) and (max-width: 2640px) { 
+    .header__items_title h1 {
+        font-size: 30px;
+    }
+    .nav__links_active {
+        font-size: 20px;
+    }
+    .nav__links {
+        font-size: 20px;
+    }
+    .header__items_button button {
+        font-size: 20px;
+        width: 200px;
+        height: auto;
+    }
+}
+
