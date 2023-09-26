@@ -12,8 +12,12 @@ body {
     color: white;
     padding: 10px 20px;
     border: none;
+    transition: transform 0.2s ease;
 }
 
+.button:hover {
+    transform: scale(1.1);
+}
 
 .container {
     width: 100%;
@@ -253,14 +257,6 @@ body {
 .spark {
     width: 350px;
     margin-right: 70px;
-}
-
-.spark-1 {
-    width: 350px;
-    margin-right: 70px;
-    box-shadow: 0px 13.86111px 55.44445px 0px #F2F5FA;
-    padding: 20px;
-    border-radius: 20.792px;
 }
 
 .spark_block {
