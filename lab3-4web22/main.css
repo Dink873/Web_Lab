@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+.edit-btn {
+    background-color: #4f0e72;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 90px;
+}
+.delete-btn {
+    background-color: rgb(248, 67, 67);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 90px;
+}
+
+.main__container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.camera-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 235px;
+    display: inline-block;
+}
+
+.camera-item h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.camera-item p {
+    margin-top: 10px;
+}
+
+.camera-item .edit-btn,
+.camera-item .delete-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#camera-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
